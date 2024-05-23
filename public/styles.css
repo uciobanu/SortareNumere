@@ -1,0 +1,93 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(110deg, #84fab0, #8fd3f4, #007BFF, #F0FFFF, #9370DB, #DB7093, #D8BFD8);
+    overflow: hidden;
+    backdrop-filter: blur(90px);
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #007BFF; 
+    animation: animateTextColor 5s linear infinite;
+}
+
+@keyframes animateTextColor {
+    0%, 100% { color: #3c3695; }
+    12.5% { color: #8fd310; }
+    25% { color: #007BFF; }
+    37.5% { color: #1e6060; }
+    50% { color: #9370DB; }
+    62.5% { color: #DB7093; }
+    75% { color: #981f98; }
+    87.5% { color: #DB7093; }
+    92.5% { color: #9370DB; }
+    95% { color: #53a9a9; }
+    97.5% { color: #007BFF; }
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #007BFF;
+    box-shadow: 0 0 5px #F0FFFF, 0 0 25px #B0E0E6, 0 0 50px #F0FFFF, 0 0 100px #B0E0E6, 0 0 200px #B0E0E6;
+    transform: scale(1.05);
+}
+
+#nameList {
+    margin-top: 20px;
+    text-align: left;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#nameList div {
+    padding: 5px;
+    background: rgba(0, 123, 255, 0.1);
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+@keyframes animateBackground {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+body {
+    animation: animateBackground 5s ease infinite;
+    background-size: 500% 500%;
+}
