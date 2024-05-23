@@ -10,8 +10,8 @@ This repository contains a simple JavaScript app for sorting names alphabeticall
 2.Run the sortNames.js file in a JavaScript environment.
 
 <h2>Example 🎉</h2>
-<b>let names = ["John", "Jane", "Alice", "Bob"];
-let sortedNames = sortNames(names);
+<b><p>let names = ["John", "Jane", "Alice", "Bob"];</p>
+<p>let sortedNames = sortNames(names);</p>
 console.log(sortedNames); // Outputs: ["Alice", "Bob", "Jane", "John"]</b>
 
 <h2>Languages 🛠️</h2>
