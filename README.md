@@ -21,5 +21,6 @@ console.log(sortedNames);</b> // Outputs: ["Alice", "Bob", "Jane", "John"]
 <li>JavaScript 💻</li>
 </ul>
 
-App Interface Preview: Before (https://cdn.dribbble.com/userupload/14727363/file/original-662ab721e27526d702fa24f0df910140.png?resize=1504x836)
-                       <p>After  (https://cdn.dribbble.com/userupload/14727362/file/original-82e5cbaa8af5084d3524ebd1f5d5fc83.png?resize=2145x1189)</p>
+App Interface Preview: 
+<li><p>Before (https://cdn.dribbble.com/userupload/14727363/file/original-662ab721e27526d702fa24f0df910140.png?resize=1504x836)</p></li>
+<li></li><p>After  (https://cdn.dribbble.com/userupload/14727362/file/original-82e5cbaa8af5084d3524ebd1f5d5fc83.png?resize=2145x1189)</p></li>
